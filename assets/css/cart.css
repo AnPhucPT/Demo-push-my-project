@@ -1,0 +1,94 @@
+.cart-product {
+    height: 114px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+}
+
+.cart-product:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+i {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.type,
+.card-type img {
+    cursor: pointer;
+}
+
+.card-type img {
+    transition: all 0.1s;
+}
+
+.card-type img:hover {
+    outline: 2px solid rgb(237, 29, 36);
+}
+
+.type i {
+    font-size: 0.8rem;
+}
+
+.type:hover {
+    color: rgb(237, 29, 36);
+}
+
+i:hover {
+    color: rgb(237, 29, 36) !important;
+}
+
+.c-red {
+    color: rgb(237, 29, 36)
+}
+
+.amount-money {
+    width: 120px;
+    text-align: left;
+}
+
+.quantity .number {
+    display: inline-block;
+    text-align: center;
+    width: 32px;
+}
+
+.pay-block {
+    /* border: 2px solid rgb(237, 29, 36); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 5px;
+}
+
+.card-type-group-icon img {
+    width: 22%;
+}
+
+.card-type-group-icon img {
+    /* border: 2px solid rgb(237, 29, 36); */
+}
+
+.input-card {
+    height: 45px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /* border: none; */
+    outline: none;
+}
+
+.input-card:focus {
+    outline: 2px solid rgb(237, 29, 36);
+}
+
+.button-buy-now {
+    height: 54px;
+    background-color: rgb(237, 29, 36);
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.button-buy-now:hover {
+    box-shadow: rgba(237, 29, 36, 0.5) 0px 4px 20px;
+}

@@ -1,0 +1,702 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Cart</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <!-- place navbar here -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-white ">
+            <div class="container">
+                <div class="header-logo">
+                    <a href="./index.html" class="logo-imgage"><img
+                            src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/logo/nav-log.webp"
+                            alt="logo"></a>
+                </div>
+                <div class="header-search">
+                    <div class="search__categories">
+                        All categories
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                    <input class="search__input" type="search" placeholder="Search For Product..">
+                    <div class="search__button">
+                        <i class="bi bi-search search__icon"></i>
+                    </div>
+                </div>
+                <div class="header-user">
+                    <div class="user__icon">
+                        <a href="./signin.html"><i class="bi bi-person"></i></a>
+                    </div>
+                    <div class="user__favorite">
+                        <i class="bi bi-heart"></i>
+                        <span class="favorite-noice">7</span>
+                    </div>
+                    <div class="user__cart">
+                        <div class="cart-info">
+                            <span class="cart-info__title">
+                                My cart
+                            </span>
+                            <span class="cart-info__price">
+                                $0.00
+                            </span>
+                        </div>
+                        <i class="bi bi-cart"></i>
+                        <span class="cart-notice">7</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end heading -->
+        <div class="bg-dark">
+            <div class="container navbar-custom ">
+                <ul class="nav-list">
+                    <li class="nav-item ">
+                        <div class="nav-item--border">
+                            Home
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        Shop
+                        <i class="bi bi-chevron-down"></i>
+                    </li>
+                    <li class="nav-item">
+                        Assesories
+                    </li>
+                    <li class="nav-item">
+                        Blogs
+                        <i class="bi bi-chevron-down"></i>
+                    </li>
+                    <li class="nav-item">
+                        Pages
+                        <i class="bi bi-chevron-down"></i>
+                    </li>
+                    <li class="nav-item">
+                        Contact
+                    </li>
+                </ul>
+                <div class="nav-language">
+                    <img class="nav-image"
+                        src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png"
+                        alt="">
+                    <span>English</span>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+        <!-- end navbar -->
+    </header>
+    <main class="bg-gray pt-4 pb-5">
+        <div class="container bg-white rounded">
+            <div class="row">
+                <div id="group-card" class="col-8 p-4">
+                    <div class="header-cart d-flex justify-content-between align-items-center">
+                        <div class="header-title h4">
+                            You have 7 items in your cart
+                        </div>
+                        <div class="sort-block">
+                            Sort by: <span class="type">Date <i class="bi-caret-down"></i></span>
+                        </div>
+                    </div>
+                    <hr class="mt-4">
+                    <div class="cart-product mt-3 d-flex justify-content-between align-items-center p-4">
+                        <div class="cart-product--left d-flex align-items-center">
+                            <img class="me-4 img-fluid  rounded" src="./assets/img/img_small/product1.webp" alt="">
+                            <div class="cart-product-info">
+                                <div class="cart-product--name mb-2">
+                                    <strong class="h4">
+                                        product 9
+                                    </strong>
+                                </div>
+                                <div class="cart-product--descr">
+                                    Alloy material, glossy gray
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-product--right d-flex align-items-center">
+                            <div class="quantity me-2">
+                                <i class="bi-dash-circle p-2 h4 text-muted"></i> <span class="number h4">3</span>
+                                <i class="bi-plus-circle p-2 h4 text-muted"></i>
+                            </div>
+                            <div class="amount-money h4 mb-0 mx-4">
+                                $1300.00
+                            </div>
+                            <div class="remove-product">
+                                <i class="bi-trash h4 p-2 text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-product mt-3 d-flex justify-content-between align-items-center p-4">
+                        <div class="cart-product--left d-flex align-items-center">
+                            <img class="me-4 img-fluid  rounded" src="./assets/img/img_small/product7.webp" alt="">
+                            <div class="cart-product-info">
+                                <div class="cart-product--name mb-2">
+                                    <strong class="h4">
+                                        product 1
+                                    </strong>
+                                </div>
+                                <div class="cart-product--descr">
+                                    Alloy material, glossy gray
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-product--right d-flex align-items-center">
+                            <div class="quantity me-2">
+                                <i class="bi-dash-circle p-2 h4 text-muted"></i> <span class="number h4">1</span>
+                                <i class="bi-plus-circle p-2 h4 text-muted"></i>
+                            </div>
+                            <div class="amount-money h4 mb-0 mx-4">
+                                $900.00
+                            </div>
+                            <div class="remove-product">
+                                <i class="bi-trash h4 p-2 text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-product mt-3 d-flex justify-content-between align-items-center p-4">
+                        <div class="cart-product--left d-flex align-items-center">
+                            <img class="me-4 img-fluid  rounded" src="./assets/img/img_small/product8 (1).webp" alt="">
+                            <div class="cart-product-info">
+                                <div class="cart-product--name mb-2">
+                                    <strong class="h4">
+                                        product 8
+                                    </strong>
+                                </div>
+                                <div class="cart-product--descr">
+                                    Alloy material, glossy gray
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-product--right d-flex align-items-center">
+                            <div class="quantity me-2">
+                                <i class="bi-dash-circle p-2 h4 text-muted"></i> <span class="number h4">2</span>
+                                <i class="bi-plus-circle p-2 h4 text-muted"></i>
+                            </div>
+                            <div class="amount-money h4 mb-0 mx-4">
+                                $1500.00
+                            </div>
+                            <div class="remove-product">
+                                <i class="bi-trash h4 p-2 text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-product mt-3 d-flex justify-content-between align-items-center p-4">
+                        <div class="cart-product--left d-flex align-items-center">
+                            <img class="me-4 img-fluid  rounded" src="./assets/img/img_small/product2.webp" alt="">
+                            <div class="cart-product-info">
+                                <div class="cart-product--name mb-2">
+                                    <strong class="h4">
+                                        product 2
+                                    </strong>
+                                </div>
+                                <div class="cart-product--descr">
+                                    Alloy material, glossy gray
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-product--right d-flex align-items-center">
+                            <div class="quantity me-2">
+                                <i class="bi-dash-circle p-2 h4 text-muted"></i> <span class="number h4">1</span>
+                                <i class="bi-plus-circle p-2 h4 text-muted"></i>
+                            </div>
+                            <div class="amount-money h4 mb-0 mx-4">
+                                $1400.00
+                            </div>
+                            <div class="remove-product">
+                                <i class="bi-trash h4 p-2 text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-product mt-3 d-flex justify-content-between align-items-center p-4">
+                        <div class="cart-product--left d-flex align-items-center">
+                            <img class="me-4 img-fluid  rounded" src="./assets/img/img_small/product3.webp" alt="">
+                            <div class="cart-product-info">
+                                <div class="cart-product--name mb-2">
+                                    <strong class="h4">
+                                        product 5
+                                    </strong>
+                                </div>
+                                <div class="cart-product--descr">
+                                    Alloy material, black
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-product--right d-flex align-items-center">
+                            <div class="quantity me-2">
+                                <i class="bi-dash-circle p-2 h4 text-muted"></i> <span class="number h4">4</span>
+                                <i class="bi-plus-circle p-2 h4 text-muted"></i>
+                            </div>
+                            <div class="amount-money h4 mb-0 mx-4">
+                                $2400.00
+                            </div>
+                            <div class="remove-product">
+                                <i class="bi-trash h4 p-2 text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-product mt-3 d-flex justify-content-between align-items-center p-4">
+                        <div class="cart-product--left d-flex align-items-center">
+                            <img class="me-4 img-fluid  rounded" src="./assets/img/img_small/product4.webp" alt="">
+                            <div class="cart-product-info">
+                                <div class="cart-product--name mb-2">
+                                    <strong class="h4">
+                                        Product 4
+                                    </strong>
+                                </div>
+                                <div class="cart-product--descr">
+                                    Alloy material, glossy gray
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-product--right d-flex align-items-center">
+                            <div class="quantity me-2">
+                                <i class="bi-dash-circle p-2 h4 text-muted"></i> <span class="number h4">1</span>
+                                <i class="bi-plus-circle p-2 h4 text-muted"></i>
+                            </div>
+                            <div class="amount-money h4 mb-0 mx-4">
+                                $1000.00
+                            </div>
+                            <div class="remove-product">
+                                <i class="bi-trash h4 p-2 text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-product mt-3 d-flex justify-content-between align-items-center p-4">
+                        <div class="cart-product--left d-flex align-items-center">
+                            <img class="me-4 img-fluid  rounded" src="./assets/img/img_small/product5.webp" alt="">
+                            <div class="cart-product-info">
+                                <div class="cart-product--name mb-2">
+                                    <strong class="h4">
+                                        product 5
+                                    </strong>
+                                </div>
+                                <div class="cart-product--descr">
+                                    Alloy material, black
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-product--right d-flex align-items-center">
+                            <div class="quantity me-2">
+                                <i class="bi-dash-circle p-2 h4 text-muted"></i> <span class="number h4">5</span>
+                                <i class="bi-plus-circle p-2 h4 text-muted"></i>
+                            </div>
+                            <div class="amount-money h4 mb-0 mx-4">
+                                $3000.00
+                            </div>
+                            <div class="remove-product">
+                                <i class="bi-trash h4 p-2 text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-4 ps-0">
+                    <div class="pay-block p-4 ">
+                        <div class="pay-title h3 text-center">
+                            PAYMENT
+                        </div>
+                        <div class="card-type mt-3">
+                            <strong>Card type:</strong>
+                            <div class="card-type-group-icon mt-2 mb-4 d-flex justify-content-between">
+                                <img src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+                                    class="img-fluid rounded" alt="">
+                                <img src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+                                    class="img-fluid rounded" alt="">
+                                <img src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+                                    class="img-fluid rounded" alt="">
+                                <img src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.png"
+                                    class="img-fluid rounded" alt="">
+                            </div>
+                        </div>
+                        <div class="form-input mb-3">
+                            <label for="name"><strong>Cardholder's Name</strong>:</label>
+                            <input id="name" class="input-card mt-2 w-100" type="text"
+                                placeholder="vd: PHAM TRINH AN PHUC">
+                        </div>
+                        <div class="form-input mb-3">
+                            <label for="name"><strong>Card Number</strong>:</label>
+                            <input id="name" class="input-card mt-2 w-100" type="text"
+                                placeholder="vd: 1234 5678 9012 3456">
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-input">
+                                    <label for="name"><strong>Expiration</strong>:</label>
+                                    <input id="name" class="input-card mt-2 w-100" type="text" placeholder="MM/YYYY">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="form-input">
+                                    <label for="name"><strong>Cvv</strong>:</label>
+                                    <input id="name" class="input-card mt-2 w-100" type="text" placeholder="***">
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <div class="subtotal d-flex justify-content-between align-items-baseline">
+                            <p class="h5">Subtotal</p>
+                            <p class="h6">$9000.00</p>
+                        </div>
+                        <div class="shipping d-flex justify-content-between align-items-baseline">
+                            <p class="h5">Shipping</p>
+                            <p class="h6">(<del class="h6 text-muted">$20.00</del>) $0.00 </p>
+                        </div>
+                        <hr>
+                        <div class="Total d-flex justify-content-between align-items-baseline mt-1">
+                            <p class="h4">Total(Incl. taxes)</p>
+                            <p class="h4"> $9000.00</p>
+                        </div>
+                        <div class="button-buy-now d-flex justify-content-center align-items-center mt-3">
+                            <strong>BUY NOW <i class="bi-arrow-right"></i></strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class=" pt-5 pb-3">
+        <!-- place footer here -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="footer-title">
+                        <strong>SUBSCRIBE <span class="c-r">NEWSLTETTER</span> </strong>
+                    </h2>
+                    <span class="sub-title">
+                        Don’t wait make a smart & logical quote here. Its pretty easy.
+                    </span>
+                </div>
+                <div class="col-6">
+                    <div class="email-block">
+                        <input type="email" placeholder="Enter your email" class="input-email">
+                        <div class="email-button">
+                            SUBSCRIBE NOW
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <hr class="mt-5">
+                </div>
+            </div>
+            <!-- end subscibe -->
+            <div class="row mt-5">
+                <div class="col-4">
+                    <h4 class="mb-3"><strong>ABOUT US</strong></h4>
+                    <span class="sub-title">
+                        Corporate clients and leisure travelers has been relying on Groundlink for dependable safe, and
+                        professional chauffeured car end service in major cities across World.
+                    </span>
+                    <div class="social-group-button mt-2">
+                        <div class="social-button">
+                            <i class="bi-facebook"></i>
+                        </div>
+                        <div class="social-button">
+                            <i class="bi-instagram"></i>
+                        </div>
+                        <div class="social-button">
+                            <i class="bi-twitter"></i>
+                        </div>
+                        <div class="social-button">
+                            <i class="bi-github"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-4">
+                            <h4 class="mb-3"><strong>MY ACCOUNT</strong></h4>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    My Account
+                                </p>
+                            </a>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    Shopping Cart
+                                </p>
+                            </a>
+                            <a class="td-none" href="./login.html">
+                                <p class="sub-title h-red">
+                                    Login
+                                </p>
+                            </a>
+                            <a class="td-none" href="./signin.html">
+                                <p class="sub-title h-red">
+                                    Register
+                                </p>
+                            </a>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    Checkout
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <h4 class="mb-3"><strong>RESOURCES</strong></h4>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    Contact Us
+                                </p>
+                            </a>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    About Us
+                                </p>
+                            </a>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    Wishlist
+                                </p>
+                            </a>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    Privacy Policy
+                                </p>
+                            </a>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    Frequently
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-4 ">
+                            <h4 class="mb-3"><strong>FIND IT FAST</strong></h4>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    Smartphone ablet
+                                </p>
+                            </a>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    Computer Laptop
+                                </p>
+                            </a>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    TV & Audio
+                                </p>
+                            </a>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    Car Accessories
+                                </p>
+                            </a>
+                            <a class="td-none" href="#">
+                                <p class="sub-title h-red">
+                                    Cameras Photos
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end nav-footer -->
+            <div class="row mt-3">
+                <div class="col-3">
+                    <div class="endow-block">
+                        <i class="bi-archive"></i>
+                        <div class="endow-content">
+                            <p><strong>Free Shipping</strong></p>
+                            <p class="sub-title">Free shipping over $100</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="endow-block">
+                        <i class="bi-headphones"></i>
+                        <div class="endow-content">
+                            <p><strong>Support 24/7</strong></p>
+                            <p class="sub-title">Contact us 24 hours a day</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="endow-block">
+                        <i class="bi-cash"></i>
+                        <div class="endow-content">
+                            <p><strong>100% Money Back</strong></p>
+                            <p class="sub-title">You have 30 days to Return</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-3">
+                    <div class="endow-block">
+                        <i class="bi-shield-lock"></i>
+                        <div class="endow-content">
+                            <p><strong>Payment Secure</strong></p>
+                            <p class="sub-title">We ensure secure payment</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- end sale event -->
+            <hr class="mt-5">
+        </div>
+        <!-- end footer top -->
+
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="logo-footer">
+                    <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/logo/nav-log-light.webp"
+                        alt="">
+                </div>
+                <div class="copyright-content">
+                    <span><span class="c-r">© 2023</span> Powered by Pham Trinh An Phuc . All Rights Reserved.</span>
+                </div>
+                <div class="cash-option">
+                    <img src="https://risingtheme.com/html/demo-partsix/partsix/assets/img/icon/payment-img.webp"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <!-- end footer bottom -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+
+    <script>
+        var coursesAPI =
+            'http://localhost:3000/cart'
+        function start() {
+            // renderCourses()
+            getCourses(renderCourses)
+            // handleCreateForm()
+        }
+
+        start()
+
+        function getCourses(callback) {
+
+            fetch(coursesAPI)
+                .then(function (response) {
+                    return response.json()
+                })
+                .then(callback)
+        }
+
+        function renderCourses(courses) {
+            var listCoursesBlock =
+                document.querySelector('#group-card')
+            var htmls = courses.map(function (course) {
+                return `
+                <div class="cart-product mt-3 d-flex justify-content-between align-items-center p-4 product-item-id-${course.id}">
+                        <div class="cart-product--left d-flex align-items-center">
+                            <img class="me-4 img-fluid  rounded" src="${course.imageAddress}" alt="">
+                            <div class="cart-product-info">
+                                <div class="cart-product--name mb-2">
+                                    <strong class="h4">
+                                        ${course.name}
+                                    </strong>
+                                </div>
+                                <div class="cart-product--descr">
+                                    ${course.description}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-product--right d-flex align-items-center">
+                            <div class="quantity me-2">
+                                <i class="bi-dash-circle p-2 h4 text-muted"></i> <span class="number h4">${course.quantity}</span>
+                                <i class="bi-plus-circle p-2 h4 text-muted"></i>
+                            </div>
+                            <div class="amount-money h4 mb-0 mx-4">
+                                $${course.price}.00
+                            </div>
+                            <div class="remove-product">
+                                <i onclick="handleDeleteCourse(${course.id})" class="bi-trash h4 p-2 text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                `
+            })
+            listCoursesBlock.innerHTML = htmls.join('')
+        }
+
+        function handleCreateForm() {
+            var createBtn = document.querySelector('#create')
+            createBtn.onclick = function () {
+                var name =
+                    document.querySelector('input[name="name"]').value
+                var description =
+                    document.querySelector('input[name="description"]').value
+                var formData = {
+                    name: name,
+                    description: description
+                }
+                createCourses(formData, function () {
+                    getCourses(renderCourses)
+                })
+            }
+        }
+        function createCourses(data, callback) {
+            fetch(coursesAPI, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+                .then(function (response) {
+                    response.json()
+                })
+                .then(callback)
+        }
+
+        function handleDeleteCourse(id) {
+            fetch(coursesAPI + '/' + id, {
+                method: 'DELETE',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(function (response) {
+                    response.json()
+                })
+                .then(function () {
+                    var courseItem = document.querySelector('.product-item-id-' + id)
+                    if (courseItem) {
+                        courseItem.remove()
+                    }
+                })
+        }
+
+        // class Course {
+        //     constructor(name, price) {
+        //         this.name = name
+        //         this.price = price
+        //     }
+
+        //     getName() {
+        //         return this.name
+        //     }
+
+        //     getPrice() {
+        //         return this.price
+        //     }
+        // }
+    </script>
+</body>
+
+</html>
